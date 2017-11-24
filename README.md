@@ -7,7 +7,7 @@ I set up three (3) honeypots in total: one with Dionaea with HTTP, one with Dion
 
 # MHN-Honeypot-1
 
-This first honeypot was run using the Ubuntu Dionaea with HTTP script. Honeypot-1 was by far the most successful in data-collecting, being attacked 1,951 times in about 8 hours. The attacks came from countries all over the world, using a variety of ports and protocols. It was interesting to note that the vast majority of the attacks used pcap as their protocol, although SipSession, smbd, mssqld, and ftdp were all used. 
+This first honeypot was run using the Ubuntu Dionaea with HTTP script. Honeypot-1 was by far the most successful in data-collecting, being attacked 3,202 times as of the time of writing. The attacks came from countries all over the world, using a variety of ports and protocols. It was interesting to note that the vast majority of the attacks used pcap as their protocol, although SipSession, smbd, mssqld, and ftdp were all used. 
 
 
 # MHN-Honeypot-2
@@ -17,7 +17,7 @@ Honeypot-2 was run using the Ubuntu Shockpot script. Strangely enough, this hone
 
 # MHN-Honeypot-3
 
-My final honeypot was run with the Ubuntu Dionaea script as well, although it was the version without HTTP. This honeypot was almost as successful as Honeypot-1, with it capturing 1,385 attacks in a period of about 7 hours. Similarly, the majority of the attacks were performed using pcap as their protocol, with the next most popular protocol being SipSession. This honeypot also attracted attention from users around the world, but there were far more instances of attacks coming from IPs in the United States. Curiously, there was one United States user who attacked my honeypot over 20+ times, each time trying out a different port each time. As observed with my first honeypot, it seems that Dionaea is an incredibly popular script, even the version without HTTP, which would account for the high number of attacks.
+My final honeypot was run with the Ubuntu Dionaea script as well, although it was the version without HTTP. This honeypot was almost as successful as Honeypot-1, with it capturing 2,788 attacks up to this point in time. Similarly, the majority of the attacks were performed using pcap as their protocol, with the next most popular protocol being SipSession. This honeypot also attracted attention from users around the world, but there were far more instances of attacks coming from IPs in the United States. Curiously, there was one United States user who attacked my honeypot over 20+ times, each time trying out a different port each time. As observed with my first honeypot, it seems that Dionaea is an incredibly popular script, even the version without HTTP, which would account for the high number of attacks.
 
 
 # Issues
